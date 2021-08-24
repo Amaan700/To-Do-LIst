@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TODO's List</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div id="navbar">
+
+        <nav class="nav">
+            <a href="link"><strong>TODOs_List</strong></a>
+            <a href="link">Contact us</a>
+            <a href="link">About</a>
+            <a href="link">Home</a>
+        </nav>
+        
+        <div class="form">
+            <form action="Search" id="searchbar">
+                <input type="search" placeholder="Search" id="bar">
+                <button id="searchbutton" type="submit">Go</button>
+                
+            </form>
+        </div>
+    </div>
+    <h2 id="heading">TODO's LIST</h2>
+    <div class="forms">
+        <div id="f1"><strong>Title</strong>
+            <input type="text" id="in1">
+            <small>add an item to the list</small>
+        </div>
+        <div id="f2"><strong>Description</strong>
+            <input type="text" id="in2">
+        </div>
+        <button id="button" type="submit">Add to list</button>
+        <button id="button2" type="button" onclick="clearstorage()">clear list</button>
+    </div>
+    <h2 id="youritems">Your items</h2>
+    <div id="tablediv">
+
+        <table border="1" id="table">
+           
+            <Tr>
+                <th>S.No</th>
+                <th>Item Title</th>
+                <th>item Description</th>
+                <th><button class="button">Delete</button></th>
+            </Tr>
+        </table>    
+    </div>
+    <script src="project.js"></script>
+</body>
+</html>

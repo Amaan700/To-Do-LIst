@@ -1,0 +1,101 @@
+body{
+    margin:0;
+    padding:0;
+}
+a{
+    font-size: 1.3vw;
+    text-decoration:none;
+    color:black;
+    padding-right:8px ;
+    font-family:'courier New', Courier, monospace;
+}
+a:hover{
+    font-size: 1.34vw;
+    color:rgb(235, 147, 235);
+}
+#navbar{
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    height: 40px;
+    padding-top: 20px;
+    border:2px solid rgb(192, 216, 235);
+}
+.form{
+    font-size:1.3vw;
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+}
+#heading{
+    text-align: center;
+    font-family:cursive;
+    color: rgb(223, 24, 163);
+}
+.forms{
+    margin-left:34vw;
+    margin-right:35vw;
+    margin-top:4vw;
+}
+#f1{
+    width:63%;
+    margin-bottom:1.5vw;
+    color:rgb(240, 152, 80);
+    font-family:cursive;
+}
+#f2{
+    width:63%;
+    color:rgb(31, 241, 94);
+    font-family:cursive;
+}
+#searchbutton{
+    color:black;
+    border:2px solid black;
+    background-color:rgb(250, 247, 247);
+    border-radius:20px;
+    height: 30px;
+}
+#bar{
+    color:black;
+    border:2px solid black;
+    border-radius:3px ;
+    background-color:rgb(250, 247, 247);
+    height: 30px;
+}
+#in1{
+    width:28vw ;
+    
+}
+#in2{
+    width:28vw ;
+    height: 6vw;
+    
+}
+.button{
+    background-color:rgb(63, 63, 247);
+    color:white;
+}
+#button{
+    background-color:rgb(63, 63, 247);
+    color:white;
+}
+#button2{
+    background-color:rgb(63, 63, 247);
+    color:white;
+}
+#youritems{
+    margin-left:34vw ;
+}
+#tablediv{
+    margin-left: 34vw;
+}
+#table{
+    border-spacing: 3px;
+    width:25vw ;
+    height:2.2vw;
+    border-collapse:collapse;
+}
+
+    
+
+
